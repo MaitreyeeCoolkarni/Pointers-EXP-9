@@ -2,6 +2,8 @@
 
 ## APPARATUS-Programiz
 
+## PROGRAM 1
+
 ## Aim:
 To perform addition and subtraction of array elements using pointers in C++.
 
@@ -25,6 +27,8 @@ End the program.
 
 ## Conclusion:
 The program successfully demonstrates the use of pointers to access array elements and perform arithmetic operations. By dereferencing pointers, the program retrieves the values stored in the array and computes their sum and difference correctly.
+
+## PROGRAM 2
 
 ## Aim:
 To demonstrate pointer arithmetic in C++ by observing address changes when incrementing pointers to variables of different data types.
@@ -66,4 +70,32 @@ String pointer increment moves by the size of a std::string object (commonly 32 
 
 This shows that pointer arithmetic depends on the data type size of the variable it points to.
 
+## PROGRAM 3
+
+## Aim
+To display the elements of an integer array in reverse order using pointers in C++.
+
+## Algorithm
+Start the program.
+
+Declare and initialize an integer array arr with 5 elements {10, 20, 30, 40, 50}.
+
+Create a pointer ptr and assign it the address of the first element of the array.
+
+Use a for loop starting from the last index (i = 4) down to the first (i = 0).
+
+Inside the loop, print the element at position ptr[i].
+
+End the program.
+
+## Observation Table
+Index (i)	Pointer Expression	Value Printed
+4	ptr[4]	50
+3	ptr[3]	40
+2	ptr[2]	30
+1	ptr[1]	20
+0	ptr[0]	10
+
+## Conclusion
+The program successfully demonstrates accessing array elements in reverse order using pointers. By using ptr[i], the pointer accesses elements relative to the base address without directly using the array name.
 
