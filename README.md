@@ -99,3 +99,30 @@ Index (i)	Pointer Expression	Value Printed
 ## Conclusion
 The program successfully demonstrates accessing array elements in reverse order using pointers. By using ptr[i], the pointer accesses elements relative to the base address without directly using the array name.
 
+## PROGRAM 4
+
+## Aim
+To input a string from the user and display it using a pointer to a string in C++.
+
+## Algorithm
+Start the program.
+
+Declare a string variable str1 and initialize it as empty.
+
+Prompt the user to enter a string.
+
+Read the string input into str1.
+
+Declare a string pointer str_ptr and assign it the address of str1.
+
+Display the string using the dereferenced pointer *str_ptr.
+
+End the program.
+
+
+
+## Conclusion
+The program successfully demonstrates how a pointer can be used to store the address of a string variable and access its value using the dereference operator (*). This confirms that pointers can handle complex data types like std::string in C++.
+
+
+
